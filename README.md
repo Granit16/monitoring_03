@@ -31,6 +31,6 @@
 
 ## Задание 4
 
-Сохранил JSON MODEL Dashboard в виде [https://github.com/Granit16/monitoring_01/blob/main/JSON Model.json](https://github.com/Granit16/monitoring_03/blob/main/JSON%20Model.json)
+Сохранил JSON MODEL Dashboard в виде [json-файла](https://github.com/Granit16/monitoring_03/blob/main/JSON%20Model.json).
 
  
