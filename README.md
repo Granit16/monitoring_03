@@ -1,6 +1,6 @@
 # Домашнее задание к занятию 14 «Средство визуализации Grafana»
 
-## Обязательные задания
+## Задание 1
 
 1. Запустил связку prometheus-grafan из папки help.
 2. Авторизовался в системе.
@@ -8,14 +8,18 @@
 4. Список подключенных Datasource:
    ![](https://github.com/Granit16/monitoring_03/blob/main/grafana.png)
 
-   
-6. Предложу использовать систему перехватчик-ошибок **Sentry**.
+## Задание 2
 
-   
-7. В представленной формуле не учтены коды 3xx, исправленная формула выглядит так: ``(summ_2xx_requests + summ_3xx_requests)/(summ_all_requests)``
+1. Изучил предложенные ресурсы
+2. Создал Dashboard с четырьмя панелями:
+   - NodeExporter CPU Utilization: ```100 - (avg by (instance) (rate(node_cpu_seconds_total{job="nodeexporter",mode="idle"}[1m])) * 100)```
+   - CPULA 1/5/15: ```node_load1, node_load5, node_load15```
+   - Memory Free: ```node_memory_MemFree_bytes```
+   - FS Free: ```node_filesystem_avail_bytes```
 
-   
-8.
+Скриншот получившейся Dashboard:
+  ![](https://github.com/Granit16/monitoring_03/blob/main/dashboard.png)
+
 
 ### Push-модель
 **Плюсы:**
