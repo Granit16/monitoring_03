@@ -5,8 +5,8 @@
 1. Запустил связку prometheus-grafan из папки help.
 2. Авторизовался в системе.
 3. Подключил в качестве источника данных prometheus.
-4. 
-5. ![](https://github.com/Granit16/monitoring_03/blob/main/grafana.png)
+4. Список подключенных Datasource:
+   ![](https://github.com/Granit16/monitoring_03/blob/main/grafana.png)
 
    
 6. Предложу использовать систему перехватчик-ошибок **Sentry**.
